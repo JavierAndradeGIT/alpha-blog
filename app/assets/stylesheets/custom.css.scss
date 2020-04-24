@@ -14,14 +14,16 @@
 #logo{
   width: 5rem;
   height: 5rem;
-  background-image: url('Logo.png');
+  background-image: asset-url('Logo.png');
   background-size: 4rem;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 #home{
-  background: url(bgrnddark.jpg) no-repeat center center fixed; 
+  background-image: asset-url('bgrnddark.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
