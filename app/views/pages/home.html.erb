@@ -4,8 +4,17 @@
     <meta charset="utf-8">
     <title>Home</title>
   </head>
-  <body>
-    <h1>Home</h1>
-    <h2>This is the home page.</h2>
+  <body id="home">    
+    <div class="container" id="home-container">
+      <div class="jumbotron text-center" id="home-jumbo">
+        <h1 class="display-4">Alpha Blog</h1>
+        <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+        <hr class="my-4">
+        <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+        <a class="btn btn-info btn-lg" href="#" role="button">Sign In</a>
+        <br>          
+        <%= link_to 'About', about_path %>
+      </div>      
+    </div>        
   </body>
 </html>

@@ -1,0 +1,63 @@
+@import "bootstrap";
+.navbar {
+  background-color: #26265f !important;
+}  
+
+
+.nav-link{
+  color: white !important;
+  font-family: Verdana;
+  font-weight: 100;
+  font-size: 1rem;  
+} 
+
+#logo{
+  width: 5rem;
+  height: 5rem;
+  background-image: url('Logo.png');
+  background-size: 4rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#home{
+  background: url(bgrnddark.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#home-container{
+  margin-top: 2rem;
+  background-color: lightgray;
+  border-radius: 1rem;
+  opacity: 0.68;
+}
+
+#home-jumbo{
+  background-color: lightgray;
+  border-radius: 1rem;
+  
+}
+
+#index-body{
+  background-color: #9e9e9e;
+}
+
+html,
+body {
+  height: 100%;  
+  background-color: #9e9e9e;
+}
+
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+
+  

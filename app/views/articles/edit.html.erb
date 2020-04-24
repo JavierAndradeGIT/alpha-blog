@@ -4,14 +4,8 @@
     <meta charset="utf-8">
     <title>New article</title>
   </head>
-  <body>
-
-    <h1>Edit Article</h1>
-
-    <%= render 'article_error' %>
-    <%= render 'form' %>
-
-    <%= link_to 'Return', articles_path %>
-
+  <body>    
+      <h1 class="text-center mt-4 font-weight-bolder">Edit Article no.<%= params[:id] %></h1>    
+      <%= render 'form' %>    
   </body>
 </html>
