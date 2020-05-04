@@ -1,7 +1,7 @@
 <% if obj.errors.any? %>
   <div class="row justify-content-center">
     <div class="alert alert-danger alert-dismissible fade show mt-4 col-8" role="alert">
-      <h1 class="alert-heading">The following conditions were not met</h1>
+      <h1 class="alert-heading">The following conditions were not met for the <%= obj.class.name.downcase %> </h1>
       <ul>
         <% obj.errors.full_messages.each do |msg| %>
           <li><%= msg %></li>
